@@ -1,7 +1,7 @@
 
 function NuevoCliente() {
     return (
-        <div>NuevoCliente</div>
+        <div>Nuevo Cliente</div>
     )
 }
 
