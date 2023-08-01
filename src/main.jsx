@@ -6,6 +6,8 @@ import Layout from './components/Layout'
 import NuevoCliente, { action as nuevoClienteAction } from './pages/NuevoCliente'
 import Index, { loader as clientesLoader } from './pages/Index'
 
+
+
 const router = createBrowserRouter([
   {
     path: '/',
@@ -15,7 +17,6 @@ const router = createBrowserRouter([
         index: true,
         element: <Index />,
         loader: clientesLoader
-
       },
       {
         path: '/clientes/nuevo',
@@ -24,13 +25,13 @@ const router = createBrowserRouter([
       }
     ]
   }
+
 ])
-
-
-
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
-    <RouterProvider router={router} />
+    <RouterProvider
+      router={router}
+    />
   </React.StrictMode>,
 )
