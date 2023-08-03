@@ -3,8 +3,8 @@ import { obtenerClientes } from "../data/clientes";
 import Cliente from "../components/Cliente";
 
 export function loader() {
-    obtenerClientes()
-    return {}
+    const clientes = obtenerClientes()
+    return clientes;
 
 }
 
