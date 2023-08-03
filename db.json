@@ -1,14 +1,6 @@
 {
   "clientes": [
     {
-      "nombre": "Juan (Actualizado)",
-      "empresa": "Codigo Con Juan",
-      "email": "juan@juan.com",
-      "telefono": "102013313",
-      "notas": "Nueva Nota",
-      "id": 1
-    },
-    {
       "nombre": "Karen",
       "empresa": "Codigo Con Juan",
       "email": "karen_nuevo@juan.com",
@@ -37,14 +29,6 @@
       "telefono": "10901",
       "notas": "El Cliente desea un ecommerce",
       "id": 6
-    },
-    {
-      "nombre": "Juan Antonio",
-      "empresa": "Codefy",
-      "email": "antonio@codefyplus.com",
-      "telefono": "8993300006",
-      "notas": "La empresa esta solicitando un E-commerce.",
-      "id": 7
     }
   ]
 }
